@@ -1,0 +1,28 @@
+{
+    "name": "tabler/tabler-form-laravel",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tabler",
+            "email": "yaroslavyu20@gmail.com",
+            "homepage": "https://github.com/yaroslavyu20"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tabler\\TablerForm\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tabler\\TablerForm\\Providers\\TablerFormProvider"
+            ]
+        }
+    }
+}
